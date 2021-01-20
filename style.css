@@ -23,7 +23,7 @@ header {
 .carousel-cell {
     width: 100%; /* full width */
     height: 510px;
-    background: #222;
+    background: #1d2025;
     /* center images in cells with flexbox */
     display: flex;
     align-items: center;
