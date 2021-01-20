@@ -1,0 +1,73 @@
+* { 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: Helvetica;
+    background-color:#1d2025;
+    font-size: 30px; 
+}
+/*------------------------Header------------------------*/
+header {
+    margin-top:50px;
+    text-align: center;
+    color:#0cb19b;
+}
+
+/*------------------------------------------------------*/
+
+/* -------------image slider---------------
+.carousel {
+  background-color: #1d2025;
+  margin-top:90px;
+}
+/*-------------image & cell---------------*/
+/* .carousel-cell {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  background: rgb(46, 47, 46);
+  border-radius: 5px;
+  /* counter-increment: gallery-cell; 
+  background-image:url("../images/bell1.png");
+  align-items: center;
+  justify-content: center;
+} */ 
+
+/*------------- new image & cell---------------*/
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: 510px;
+    background: #222;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+  }
+  
+  .carousel-cell img  {
+    display: block;
+    max-height: 100%;
+  }
+  .label {
+      display:flex;
+      position:absolute;
+      margin-top:445px;
+      font-size:25px;
+  }
+  a{
+      color:#5e757262;
+  }
+  a:hover {
+    color:#0cb19a;
+    transition:all .80s ease-in-out;
+}
+
+
+
