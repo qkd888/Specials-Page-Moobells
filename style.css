@@ -1,69 +1,74 @@
-* { 
-    box-sizing: border-box; 
+* {
+  box-sizing: border-box;
 }
 
-body { 
-    font-family: Helvetica;
-    background-color:#1d2025;
-    font-size: 30px; 
+body {
+  font-family: Helvetica;
+  background-color: #1d2025;
+  font-size: 30px;
 }
 /*------------------------Header------------------------*/
 header {
-    margin-top:50px;
-    text-align: center;
-    color:#0cb19b;
+  margin-top: 50px;
+  text-align: center;
+  color: #0cb19b;
 }
 
 /*------------------------------------------------------*/
 
-
-
-/*------------- new image & cell---------------*/
+/*----------------------- cell -------------------------*/
+/* .box {
+  box-sizing: border-box;
+  margin-top: 2em;
+} */
+.carousel {
+  margin-top: 1em;
+  border-radius: 5px;
+}
 
 .carousel-cell {
-    width: 100%; /* full width */
-    height: 510px;
-    background: #1d2025;
-    /* center images in cells with flexbox */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .carousel.is-fullscreen .carousel-cell {
-    height: 100%;
-  }
-  
-  .carousel-cell img  {
-    display: block;
-    max-height: 100%;
-  }
-  .label {
-      display:flex;
-      position:absolute;
-      margin-top:445px;
-      font-size:25px;
-  }
-  a{
-      color:#5e757262;
-  }
-  a:hover {
-    color:#0cb19a;
-    transition:all .80s ease-in-out;
+  width: 33%;
+  height: 500px;
+  display: inline-block;
+  margin: 0 15px;
+  border: 3px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 50%;
+}
+
+.carousel-cell img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.label {
+  display: flex;
+  position: absolute;
+  margin-top: 445px;
+  font-size: 25px;
+}
+a {
+  margin-left: 50px;
+  color: #5e757262;
+}
+a:hover {
+  color: #0cb19a;
+  transition: all 0.8s ease-in-out;
 }
 /* icon color */
 .flickity-button-icon {
-    fill: #000000;
-    
-    
-  }
-  .flickity-button {
-    background: #0cb19b41;
-  }
-  .flickity-button:hover {
-    background: #0cb19a;
-    transition: all 0.80s ease-in-out;
-  }
-
-
-
+  fill: #000000;
+}
+.flickity-button {
+  background: #0cb19b41;
+}
+.flickity-button:hover {
+  background: #0cb19a;
+  transition: all 0.8s ease-in-out;
+}
