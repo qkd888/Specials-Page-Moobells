@@ -17,10 +17,7 @@ header {
 /*------------------------------------------------------*/
 
 /*----------------------- cell -------------------------*/
-/* .box {
-  box-sizing: border-box;
-  margin-top: 2em;
-} */
+
 .carousel {
   margin-top: 1em;
   border-radius: 5px;
@@ -28,7 +25,7 @@ header {
 
 .carousel-cell {
   width: 33%;
-  height: 500px;
+  height: 550px;
   display: inline-block;
   margin: 0 15px;
   border: 3px solid black;
@@ -50,11 +47,12 @@ header {
 .label {
   display: flex;
   position: absolute;
-  margin-top: 445px;
+  margin-top: 480px;
   font-size: 25px;
 }
 a {
-  margin-left: 50px;
+  margin-left: 55px;
+  margin-top: 5px;
   color: #5e757262;
 }
 a:hover {
