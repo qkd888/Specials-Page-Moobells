@@ -25,7 +25,7 @@ header {
 
 .carousel-cell {
   width: 33%;
-  height: 550px;
+  height: 500px;
   display: inline-block;
   margin: 0 15px;
   border: 3px solid black;
@@ -47,12 +47,11 @@ header {
 .label {
   display: flex;
   position: absolute;
-  margin-top: 480px;
+  margin-top: 445px;
   font-size: 25px;
 }
 a {
-  margin-left: 55px;
-  margin-top: 5px;
+  margin-left: 50px;
   color: #5e757262;
 }
 a:hover {
@@ -69,4 +68,7 @@ a:hover {
 .flickity-button:hover {
   background: #0cb19a;
   transition: all 0.8s ease-in-out;
+}
+.flickity-page-dots .dot {
+  background-color: #0cb19a;
 }
