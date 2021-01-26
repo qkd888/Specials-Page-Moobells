@@ -26,8 +26,8 @@ header {
 .carousel-cell {
   width: 33%;
   height: 500px;
-  display: inline-block;
-  margin: 0 15px;
+  display: inline-start;
+  margin: 0 5px;
   border: 3px solid black;
   border-radius: 8px;
   overflow: hidden;
@@ -71,4 +71,10 @@ a:hover {
 }
 .flickity-page-dots .dot {
   background-color: #0cb19a;
+}
+
+@media only screen and (max-width: 991px) {
+  .cell {
+    width: 50%;
+  }
 }
