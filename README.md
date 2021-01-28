@@ -1,1 +1,1 @@
-Image slider using flicker api.
+Image slider using flickity api.
