@@ -5,7 +5,7 @@
 body {
   font-family: Helvetica;
   background-color: #1d2025;
-  font-size: 30px;
+  font-size: 28px;
 }
 /*------------------------Header------------------------*/
 header {
@@ -29,7 +29,7 @@ header {
 
 @media (min-width: 1300px) {
   .box {
-    padding: 0 10%;
+    padding: 0 11%;
   }
 }
 p {
@@ -94,7 +94,7 @@ p {
 }
 
 a {
-  color: #0cb19b73;
+  color: #0cb19bad;
   text-align: center;
   margin-top: -1em;
 }
